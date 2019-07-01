@@ -1,0 +1,28 @@
+.listensong {
+    margin-top: 50px;
+}
+
+.songlist {
+    width: 90%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.idx {
+    color: #99268F;
+}
+
+.right {
+    margin-left: 15px;
+    line-height: 8px;
+}
+
+.btm span {
+    font-size: calc(0.12rem*2);
+    color: #555555;
+}
+
+.iconfont {
+    color: grey
+}

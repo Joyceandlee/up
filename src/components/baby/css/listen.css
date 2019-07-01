@@ -1,0 +1,30 @@
+.tab {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff
+}
+
+.tab div {
+    width: 80px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.tab div a {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #f00;
+}
+
+.tab div .active {
+    color: #fff;
+    background: #f00;
+}

@@ -1,0 +1,24 @@
+.add main {
+    padding: 0 30px;
+}
+
+.add main div input {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.add main div {
+    margin-top: 20px;
+}
+
+.add main div select {
+    width: 200px;
+    height: 30px;
+}
+
+.add main div .button {
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+}

@@ -1,0 +1,28 @@
+.list {
+    width: 93%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    font-weight: 800;
+    margin-right: 15px;
+}
+
+.right a {
+    color: skyblue
+}
+
+.center {
+    color: grey;
+    width: 200px;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,42 @@
+.list {
+    width: 90%;
+    padding: 0 15px;
+    height: calc(0.6rem*2);
+    /* background: #cfc; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.story {
+    margin-top: calc(0.5rem*2);
+    margin-bottom: calc(0.6rem*2)
+}
+
+img {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.right {
+    margin-top: -15px;
+    line-height: 8px;
+    margin-left: 20px;
+}
+
+.msg {
+    font-size: calc(0.12rem*2);
+    color: grey
+}
+
+.bf {
+    margin-left: 15px;
+}
+
+.iconfont {
+    position: absolute;
+    right: 10px;
+    color: #00BB9C;
+}

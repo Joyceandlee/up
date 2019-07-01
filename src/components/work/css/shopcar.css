@@ -1,0 +1,93 @@
+.qd,
+.lx {
+    width: 355px;
+    color: skyblue;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.car-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-list {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.car-name {
+    width: 170px;
+    text-align: center;
+}
+
+.car-price {
+    width: 100px;
+}
+
+.reduce,
+.add {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: skyblue;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.count {
+    margin: 0 12px;
+}
+
+.sum {
+    text-align: right;
+    padding: 15px;
+    border-bottom: 1px solid #eee
+}
+
+.car-center {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.car-center div {
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    width: 240px;
+    border: 1px solid #ccc
+}
+
+.car-bottom {
+    line-height: 30px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.car-bottom span {
+    margin-right: 25px;
+    color: skyblue;
+}
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: lightcoral;
+    color: #000;
+    text-align: center;
+    /* padding: 10px 20px; */
+}

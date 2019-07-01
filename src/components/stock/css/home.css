@@ -1,0 +1,113 @@
+html,
+body,
+#app,
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(100 /750*100vw)
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: calc(0.5rem*2);
+    background: #D7423A;
+}
+
+header h3 {
+    width: 100%;
+    height: 100%;
+    line-height: calc(0.5rem*2);
+    text-align: center;
+    font-size: calc(0.2rem*2);
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+    background: #eee;
+}
+
+footer {
+    width: 100%;
+    height: calc(100/750*100vw);
+    line-height: calc(100/750*100vw);
+    background: #262629;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer a {
+    color: #828283;
+}
+
+.footer a.active {
+    color: #f00;
+}
+
+main img {
+    width: 100%;
+    position: fixed;
+}
+
+.content {
+    margin-top: calc(0.9rem*2);
+    background: #fff;
+}
+
+.content .edit {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.content .edit .edit-icon {
+    margin-left: 5px;
+}
+
+.list {
+    width: 100%;
+    height: calc(4.1rem*2);
+    margin-top: 20px;
+}
+
+.list .zero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.add-icon {
+    font-size: calc(1.2rem*2);
+    margin-bottom: 10px;
+}
+
+li {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.showList {
+    list-style: none;
+    text-align: left;
+    margin-left: 20px;
+}
